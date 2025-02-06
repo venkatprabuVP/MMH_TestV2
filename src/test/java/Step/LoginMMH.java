@@ -19,7 +19,7 @@ public class LoginMMH  {
  public LoginFeature loginFeature;
  @Given("user is enter the URL")
     public void userIsEnterTheURL() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Automation\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Automation\\chromedriver-win64\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://v2webuat.mmh-demo.com/");
         driver.manage().window().maximize();
