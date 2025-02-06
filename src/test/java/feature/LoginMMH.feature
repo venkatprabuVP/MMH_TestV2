@@ -1,6 +1,6 @@
-@Test
-Feature:  Login Manage my health
 
+Feature:  Login Manage my health
+  @Test
 Scenario:  As a user enter into the dashboard
   Given user is enter the URL
   And Enter the email and password

@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
         features = "C:\\Automation\\IntellliJ\\Test_V2\\src\\test\\java\\feature",
         glue = {"Step"},
-        //tags = "@Test", // Specify the tag of the scenario you want to run
+        tags = "@Test", // Specify the tag of the scenario you want to run
         monochrome = false
 )
 public class LoginMMHRunner {
