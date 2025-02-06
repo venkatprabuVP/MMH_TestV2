@@ -26,6 +26,8 @@ public class LoginMMH  {
         driver.findElement(By.xpath("//span[text()='Login']")).click();
      loginFeature = new LoginFeature(driver);
 
+
+
     }
 
     @And("Enter the email and password")
@@ -33,7 +35,7 @@ public class LoginMMH  {
         loginFeature.enterUsername("romieojuliet1@mmh-demo.com");  // Pass the username
         loginFeature.enterPassword("Manage@123");  // Pass the password
 
-    }
+ }
 
     @Then("Click the login button")
     public void clickTheLoginButton() {
